@@ -1,0 +1,1009 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B09A9C04111BE03079E1710 /* Pods_TestAppShedule_No_internet_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE29C3B20939624EFD69788C /* Pods_TestAppShedule_No_internet_.framework */; };
+		6B15B7FD855C0DFE57EE1728 /* Pods_TestAppShedule_No_internet_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB27C80F3A75C0F300E0E5B /* Pods_TestAppShedule_No_internet_Tests.framework */; };
+		8334295728734D5300828295 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8334295628734D5300828295 /* AppDelegate.swift */; };
+		8334295928734D5300828295 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8334295828734D5300828295 /* SceneDelegate.swift */; };
+		8334295B28734D5300828295 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8334295A28734D5300828295 /* MainTabBarController.swift */; };
+		8334296028734D5900828295 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8334295F28734D5900828295 /* Assets.xcassets */; };
+		8334296328734D5900828295 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8334296128734D5900828295 /* LaunchScreen.storyboard */; };
+		8334296E28734D5900828295 /* TestAppShedule_No_internet_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8334296D28734D5900828295 /* TestAppShedule_No_internet_Tests.swift */; };
+		8334297828734D5900828295 /* TestAppShedule_No_internet_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8334297728734D5900828295 /* TestAppShedule_No_internet_UITests.swift */; };
+		8334297A28734D5900828295 /* TestAppShedule_No_internet_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8334297928734D5900828295 /* TestAppShedule_No_internet_UITestsLaunchTests.swift */; };
+		8334298B287351F200828295 /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8334298A287351F200828295 /* ScheduleViewController.swift */; };
+		8334298D2873520800828295 /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8334298C2873520800828295 /* TasksViewController.swift */; };
+		833429952874319A00828295 /* ScheduleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833429942874319A00828295 /* ScheduleTableViewCell.swift */; };
+		8334299928743BEA00828295 /* UIStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8334299828743BEA00828295 /* UIStackView.swift */; };
+		8334299B28745A3300828295 /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8334299A28745A3300828295 /* UILabel.swift */; };
+		8334299D28745DEA00828295 /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8334299C28745DE900828295 /* UIFont.swift */; };
+		833429A128746E9D00828295 /* TasksTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833429A028746E9D00828295 /* TasksTableViewCell.swift */; };
+		833429A42874758000828295 /* PressButtonProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833429A32874758000828295 /* PressButtonProtocols.swift */; };
+		833429A62874780400828295 /* ScheduleOptionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833429A52874780400828295 /* ScheduleOptionsTableViewController.swift */; };
+		833429AE2874803000828295 /* OptionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833429AD2874803000828295 /* OptionsTableViewCell.swift */; };
+		833429B02874858E00828295 /* HeaderOptionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833429AF2874858E00828295 /* HeaderOptionsTableViewCell.swift */; };
+		833429B328757C2F00828295 /* AlertDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833429B228757C2F00828295 /* AlertDate.swift */; };
+		833429B52875837900828295 /* AlertTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833429B42875837900828295 /* AlertTime.swift */; };
+		833429B7287584FA00828295 /* AlertForCellName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833429B6287584FA00828295 /* AlertForCellName.swift */; };
+		833429B928759DE000828295 /* ScheduleColorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833429B828759DE000828295 /* ScheduleColorsViewController.swift */; };
+		833429BD28759E1B00828295 /* TeachersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833429BC28759E1B00828295 /* TeachersTableViewController.swift */; };
+		833429BF2875A17B00828295 /* UIAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833429BE2875A17A00828295 /* UIAlertController.swift */; };
+		833429C12875B19F00828295 /* ColorsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833429C02875B19F00828295 /* ColorsTableViewCell.swift */; };
+		833429C32875B4A100828295 /* TaskOptionsTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833429C22875B4A100828295 /* TaskOptionsTableView.swift */; };
+		833429C72875DD7F00828295 /* TaskColorsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833429C62875DD7F00828295 /* TaskColorsTableViewController.swift */; };
+		833429C92876C43400828295 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833429C82876C43400828295 /* ContactsViewController.swift */; };
+		833429CB2876C5EE00828295 /* ContactsTable ViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833429CA2876C5EE00828295 /* ContactsTable ViewCell.swift */; };
+		833429CD2876D63D00828295 /* ContactsOptionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833429CC2876D63D00828295 /* ContactsOptionsTableViewController.swift */; };
+		833429CF2876E69A00828295 /* AlertFriendOrTeacher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833429CE2876E69A00828295 /* AlertFriendOrTeacher.swift */; };
+		838C553128781C1F00FAE7F3 /* AlertPhotoCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838C553028781C1F00FAE7F3 /* AlertPhotoCamera.swift */; };
+		838C55342878438500FAE7F3 /* ScheduleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838C55332878438500FAE7F3 /* ScheduleModel.swift */; };
+		838C55372878454A00FAE7F3 /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838C55362878454900FAE7F3 /* RealmManager.swift */; };
+		838C55392878506800FAE7F3 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838C55382878506800FAE7F3 /* UIColor.swift */; };
+		838C553B28785AD600FAE7F3 /* AlertOk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838C553A28785AD600FAE7F3 /* AlertOk.swift */; };
+		839AF1242879835200FF508A /* TaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839AF1232879835200FF508A /* TaskModel.swift */; };
+		83D047C92879B2F3004EDC89 /* ContactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D047C82879B2F3004EDC89 /* ContactModel.swift */; };
+		B88DFA2965FF28BDF28BA721 /* Pods_TestAppShedule_No_internet__TestAppShedule_No_internet_UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4E0C3633D7B397E91082241 /* Pods_TestAppShedule_No_internet__TestAppShedule_No_internet_UITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8334296A28734D5900828295 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8334294B28734D5300828295 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8334295228734D5300828295;
+			remoteInfo = "TestAppShedule(No internet)";
+		};
+		8334297428734D5900828295 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8334294B28734D5300828295 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8334295228734D5300828295;
+			remoteInfo = "TestAppShedule(No internet)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20724E5AD641792C34281B3F /* Pods-TestAppShedule(No internet).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestAppShedule(No internet).debug.xcconfig"; path = "Target Support Files/Pods-TestAppShedule(No internet)/Pods-TestAppShedule(No internet).debug.xcconfig"; sourceTree = "<group>"; };
+		3281753A0948B87F52D852D9 /* Pods-TestAppShedule(No internet)-TestAppShedule(No internet)UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestAppShedule(No internet)-TestAppShedule(No internet)UITests.debug.xcconfig"; path = "Target Support Files/Pods-TestAppShedule(No internet)-TestAppShedule(No internet)UITests/Pods-TestAppShedule(No internet)-TestAppShedule(No internet)UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3F71F7C01EC716E1156D467F /* Pods-TestAppShedule(No internet)-TestAppShedule(No internet)UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestAppShedule(No internet)-TestAppShedule(No internet)UITests.release.xcconfig"; path = "Target Support Files/Pods-TestAppShedule(No internet)-TestAppShedule(No internet)UITests/Pods-TestAppShedule(No internet)-TestAppShedule(No internet)UITests.release.xcconfig"; sourceTree = "<group>"; };
+		4B03279B7BF3DCB22A82C6E6 /* Pods-TestAppShedule(No internet)Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestAppShedule(No internet)Tests.release.xcconfig"; path = "Target Support Files/Pods-TestAppShedule(No internet)Tests/Pods-TestAppShedule(No internet)Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8334295328734D5300828295 /* TestAppShedule(No internet).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TestAppShedule(No internet).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8334295628734D5300828295 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8334295828734D5300828295 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8334295A28734D5300828295 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		8334295F28734D5900828295 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8334296228734D5900828295 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8334296428734D5900828295 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8334296928734D5900828295 /* TestAppShedule(No internet)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TestAppShedule(No internet)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8334296D28734D5900828295 /* TestAppShedule_No_internet_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAppShedule_No_internet_Tests.swift; sourceTree = "<group>"; };
+		8334297328734D5900828295 /* TestAppShedule(No internet)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TestAppShedule(No internet)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8334297728734D5900828295 /* TestAppShedule_No_internet_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAppShedule_No_internet_UITests.swift; sourceTree = "<group>"; };
+		8334297928734D5900828295 /* TestAppShedule_No_internet_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAppShedule_No_internet_UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8334298A287351F200828295 /* ScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
+		8334298C2873520800828295 /* TasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksViewController.swift; sourceTree = "<group>"; };
+		833429942874319A00828295 /* ScheduleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleTableViewCell.swift; sourceTree = "<group>"; };
+		8334299828743BEA00828295 /* UIStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStackView.swift; sourceTree = "<group>"; };
+		8334299A28745A3300828295 /* UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
+		8334299C28745DE900828295 /* UIFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
+		833429A028746E9D00828295 /* TasksTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksTableViewCell.swift; sourceTree = "<group>"; };
+		833429A32874758000828295 /* PressButtonProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PressButtonProtocols.swift; sourceTree = "<group>"; };
+		833429A52874780400828295 /* ScheduleOptionsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleOptionsTableViewController.swift; sourceTree = "<group>"; };
+		833429AD2874803000828295 /* OptionsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsTableViewCell.swift; sourceTree = "<group>"; };
+		833429AF2874858E00828295 /* HeaderOptionsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderOptionsTableViewCell.swift; sourceTree = "<group>"; };
+		833429B228757C2F00828295 /* AlertDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertDate.swift; sourceTree = "<group>"; };
+		833429B42875837900828295 /* AlertTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertTime.swift; sourceTree = "<group>"; };
+		833429B6287584FA00828295 /* AlertForCellName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertForCellName.swift; sourceTree = "<group>"; };
+		833429B828759DE000828295 /* ScheduleColorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleColorsViewController.swift; sourceTree = "<group>"; };
+		833429BC28759E1B00828295 /* TeachersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeachersTableViewController.swift; sourceTree = "<group>"; };
+		833429BE2875A17A00828295 /* UIAlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAlertController.swift; sourceTree = "<group>"; };
+		833429C02875B19F00828295 /* ColorsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsTableViewCell.swift; sourceTree = "<group>"; };
+		833429C22875B4A100828295 /* TaskOptionsTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskOptionsTableView.swift; sourceTree = "<group>"; };
+		833429C62875DD7F00828295 /* TaskColorsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskColorsTableViewController.swift; sourceTree = "<group>"; };
+		833429C82876C43400828295 /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		833429CA2876C5EE00828295 /* ContactsTable ViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContactsTable ViewCell.swift"; sourceTree = "<group>"; };
+		833429CC2876D63D00828295 /* ContactsOptionsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsOptionsTableViewController.swift; sourceTree = "<group>"; };
+		833429CE2876E69A00828295 /* AlertFriendOrTeacher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertFriendOrTeacher.swift; sourceTree = "<group>"; };
+		838C553028781C1F00FAE7F3 /* AlertPhotoCamera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertPhotoCamera.swift; sourceTree = "<group>"; };
+		838C55332878438500FAE7F3 /* ScheduleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleModel.swift; sourceTree = "<group>"; };
+		838C55362878454900FAE7F3 /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
+		838C55382878506800FAE7F3 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		838C553A28785AD600FAE7F3 /* AlertOk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertOk.swift; sourceTree = "<group>"; };
+		839AF1232879835200FF508A /* TaskModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModel.swift; sourceTree = "<group>"; };
+		83D047C82879B2F3004EDC89 /* ContactModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactModel.swift; sourceTree = "<group>"; };
+		AE29C3B20939624EFD69788C /* Pods_TestAppShedule_No_internet_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestAppShedule_No_internet_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4E0C3633D7B397E91082241 /* Pods_TestAppShedule_No_internet__TestAppShedule_No_internet_UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestAppShedule_No_internet__TestAppShedule_No_internet_UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C18E4EFF4737D5230EA5433F /* Pods-TestAppShedule(No internet)Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestAppShedule(No internet)Tests.debug.xcconfig"; path = "Target Support Files/Pods-TestAppShedule(No internet)Tests/Pods-TestAppShedule(No internet)Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CBB27C80F3A75C0F300E0E5B /* Pods_TestAppShedule_No_internet_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestAppShedule_No_internet_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7DF18DC6C653091F0284298 /* Pods-TestAppShedule(No internet).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestAppShedule(No internet).release.xcconfig"; path = "Target Support Files/Pods-TestAppShedule(No internet)/Pods-TestAppShedule(No internet).release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8334295028734D5300828295 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B09A9C04111BE03079E1710 /* Pods_TestAppShedule_No_internet_.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8334296628734D5900828295 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B15B7FD855C0DFE57EE1728 /* Pods_TestAppShedule_No_internet_Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8334297028734D5900828295 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B88DFA2965FF28BDF28BA721 /* Pods_TestAppShedule_No_internet__TestAppShedule_No_internet_UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8334294A28734D5300828295 = {
+			isa = PBXGroup;
+			children = (
+				8334295528734D5300828295 /* TestAppShedule(No internet) */,
+				8334296C28734D5900828295 /* TestAppShedule(No internet)Tests */,
+				8334297628734D5900828295 /* TestAppShedule(No internet)UITests */,
+				8334295428734D5300828295 /* Products */,
+				B13A25E92EBFC38BA6A08DA9 /* Pods */,
+				B40C0F25FFB0B95E6D149882 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8334295428734D5300828295 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8334295328734D5300828295 /* TestAppShedule(No internet).app */,
+				8334296928734D5900828295 /* TestAppShedule(No internet)Tests.xctest */,
+				8334297328734D5900828295 /* TestAppShedule(No internet)UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8334295528734D5300828295 /* TestAppShedule(No internet) */ = {
+			isa = PBXGroup;
+			children = (
+				8334298628734F7700828295 /* Application */,
+				8334298728734F9100828295 /* Controllers */,
+				833429922874318800828295 /* Models */,
+				838C55352878451E00FAE7F3 /* Services */,
+				8334299628743BC400828295 /* Extensions */,
+				833429A22874756100828295 /* Protocoals */,
+				8334298928734FC800828295 /* Resources */,
+			);
+			path = "TestAppShedule(No internet)";
+			sourceTree = "<group>";
+		};
+		8334296C28734D5900828295 /* TestAppShedule(No internet)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8334296D28734D5900828295 /* TestAppShedule_No_internet_Tests.swift */,
+			);
+			path = "TestAppShedule(No internet)Tests";
+			sourceTree = "<group>";
+		};
+		8334297628734D5900828295 /* TestAppShedule(No internet)UITests */ = {
+			isa = PBXGroup;
+			children = (
+				8334297728734D5900828295 /* TestAppShedule_No_internet_UITests.swift */,
+				8334297928734D5900828295 /* TestAppShedule_No_internet_UITestsLaunchTests.swift */,
+			);
+			path = "TestAppShedule(No internet)UITests";
+			sourceTree = "<group>";
+		};
+		8334298628734F7700828295 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				8334295628734D5300828295 /* AppDelegate.swift */,
+				8334295828734D5300828295 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		8334298728734F9100828295 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8334295A28734D5300828295 /* MainTabBarController.swift */,
+				833429A72874782100828295 /* Schedule */,
+				833429A82874783800828295 /* Tasks */,
+				833429A92874784600828295 /* Contacts */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8334298928734FC800828295 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8334296128734D5900828295 /* LaunchScreen.storyboard */,
+				8334295F28734D5900828295 /* Assets.xcassets */,
+				8334296428734D5900828295 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		833429922874318800828295 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				838C55322878437300FAE7F3 /* Realm  */,
+				833429B128757C1D00828295 /* Alert */,
+				833429932874319200828295 /* Cell */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		833429932874319200828295 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				833429AF2874858E00828295 /* HeaderOptionsTableViewCell.swift */,
+				833429AD2874803000828295 /* OptionsTableViewCell.swift */,
+				833429C02875B19F00828295 /* ColorsTableViewCell.swift */,
+				833429AA28747FE500828295 /* Schedule */,
+				833429AB28747FF300828295 /* Tasks */,
+				833429AC2874800000828295 /* Contacts */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		8334299628743BC400828295 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8334299728743BD900828295 /* UKit */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8334299728743BD900828295 /* UKit */ = {
+			isa = PBXGroup;
+			children = (
+				8334299828743BEA00828295 /* UIStackView.swift */,
+				8334299A28745A3300828295 /* UILabel.swift */,
+				8334299C28745DE900828295 /* UIFont.swift */,
+				833429BE2875A17A00828295 /* UIAlertController.swift */,
+				838C55382878506800FAE7F3 /* UIColor.swift */,
+			);
+			path = UKit;
+			sourceTree = "<group>";
+		};
+		833429A22874756100828295 /* Protocoals */ = {
+			isa = PBXGroup;
+			children = (
+				833429A32874758000828295 /* PressButtonProtocols.swift */,
+			);
+			path = Protocoals;
+			sourceTree = "<group>";
+		};
+		833429A72874782100828295 /* Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				8334298A287351F200828295 /* ScheduleViewController.swift */,
+				833429A52874780400828295 /* ScheduleOptionsTableViewController.swift */,
+				833429B828759DE000828295 /* ScheduleColorsViewController.swift */,
+			);
+			path = Schedule;
+			sourceTree = "<group>";
+		};
+		833429A82874783800828295 /* Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				8334298C2873520800828295 /* TasksViewController.swift */,
+				833429C22875B4A100828295 /* TaskOptionsTableView.swift */,
+				833429C62875DD7F00828295 /* TaskColorsTableViewController.swift */,
+			);
+			path = Tasks;
+			sourceTree = "<group>";
+		};
+		833429A92874784600828295 /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				833429C82876C43400828295 /* ContactsViewController.swift */,
+				833429CC2876D63D00828295 /* ContactsOptionsTableViewController.swift */,
+				833429BC28759E1B00828295 /* TeachersTableViewController.swift */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+		833429AA28747FE500828295 /* Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				833429942874319A00828295 /* ScheduleTableViewCell.swift */,
+			);
+			path = Schedule;
+			sourceTree = "<group>";
+		};
+		833429AB28747FF300828295 /* Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				833429A028746E9D00828295 /* TasksTableViewCell.swift */,
+			);
+			path = Tasks;
+			sourceTree = "<group>";
+		};
+		833429AC2874800000828295 /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				833429CA2876C5EE00828295 /* ContactsTable ViewCell.swift */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+		833429B128757C1D00828295 /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				833429B228757C2F00828295 /* AlertDate.swift */,
+				833429B6287584FA00828295 /* AlertForCellName.swift */,
+				833429B42875837900828295 /* AlertTime.swift */,
+				833429CE2876E69A00828295 /* AlertFriendOrTeacher.swift */,
+				838C553028781C1F00FAE7F3 /* AlertPhotoCamera.swift */,
+				838C553A28785AD600FAE7F3 /* AlertOk.swift */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
+		838C55322878437300FAE7F3 /* Realm  */ = {
+			isa = PBXGroup;
+			children = (
+				838C55332878438500FAE7F3 /* ScheduleModel.swift */,
+				839AF1232879835200FF508A /* TaskModel.swift */,
+				83D047C82879B2F3004EDC89 /* ContactModel.swift */,
+			);
+			path = "Realm ";
+			sourceTree = "<group>";
+		};
+		838C55352878451E00FAE7F3 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				838C55362878454900FAE7F3 /* RealmManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B13A25E92EBFC38BA6A08DA9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				20724E5AD641792C34281B3F /* Pods-TestAppShedule(No internet).debug.xcconfig */,
+				E7DF18DC6C653091F0284298 /* Pods-TestAppShedule(No internet).release.xcconfig */,
+				3281753A0948B87F52D852D9 /* Pods-TestAppShedule(No internet)-TestAppShedule(No internet)UITests.debug.xcconfig */,
+				3F71F7C01EC716E1156D467F /* Pods-TestAppShedule(No internet)-TestAppShedule(No internet)UITests.release.xcconfig */,
+				C18E4EFF4737D5230EA5433F /* Pods-TestAppShedule(No internet)Tests.debug.xcconfig */,
+				4B03279B7BF3DCB22A82C6E6 /* Pods-TestAppShedule(No internet)Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B40C0F25FFB0B95E6D149882 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE29C3B20939624EFD69788C /* Pods_TestAppShedule_No_internet_.framework */,
+				B4E0C3633D7B397E91082241 /* Pods_TestAppShedule_No_internet__TestAppShedule_No_internet_UITests.framework */,
+				CBB27C80F3A75C0F300E0E5B /* Pods_TestAppShedule_No_internet_Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8334295228734D5300828295 /* TestAppShedule(No internet) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8334297D28734D5900828295 /* Build configuration list for PBXNativeTarget "TestAppShedule(No internet)" */;
+			buildPhases = (
+				131798F4C1432FE217D584B4 /* [CP] Check Pods Manifest.lock */,
+				8334294F28734D5300828295 /* Sources */,
+				8334295028734D5300828295 /* Frameworks */,
+				8334295128734D5300828295 /* Resources */,
+				84AF4008314A3182C17AA40D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TestAppShedule(No internet)";
+			productName = "TestAppShedule(No internet)";
+			productReference = 8334295328734D5300828295 /* TestAppShedule(No internet).app */;
+			productType = "com.apple.product-type.application";
+		};
+		8334296828734D5900828295 /* TestAppShedule(No internet)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8334298028734D5900828295 /* Build configuration list for PBXNativeTarget "TestAppShedule(No internet)Tests" */;
+			buildPhases = (
+				180B8425C1651228AB4F893E /* [CP] Check Pods Manifest.lock */,
+				8334296528734D5900828295 /* Sources */,
+				8334296628734D5900828295 /* Frameworks */,
+				8334296728734D5900828295 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8334296B28734D5900828295 /* PBXTargetDependency */,
+			);
+			name = "TestAppShedule(No internet)Tests";
+			productName = "TestAppShedule(No internet)Tests";
+			productReference = 8334296928734D5900828295 /* TestAppShedule(No internet)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8334297228734D5900828295 /* TestAppShedule(No internet)UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8334298328734D5900828295 /* Build configuration list for PBXNativeTarget "TestAppShedule(No internet)UITests" */;
+			buildPhases = (
+				962B05F988E6FA17CDB25541 /* [CP] Check Pods Manifest.lock */,
+				8334296F28734D5900828295 /* Sources */,
+				8334297028734D5900828295 /* Frameworks */,
+				8334297128734D5900828295 /* Resources */,
+				7A2DC3E3CC5CAA8453367B44 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8334297528734D5900828295 /* PBXTargetDependency */,
+			);
+			name = "TestAppShedule(No internet)UITests";
+			productName = "TestAppShedule(No internet)UITests";
+			productReference = 8334297328734D5900828295 /* TestAppShedule(No internet)UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8334294B28734D5300828295 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					8334295228734D5300828295 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					8334296828734D5900828295 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 8334295228734D5300828295;
+					};
+					8334297228734D5900828295 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 8334295228734D5300828295;
+					};
+				};
+			};
+			buildConfigurationList = 8334294E28734D5300828295 /* Build configuration list for PBXProject "TestAppShedule(No internet)" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8334294A28734D5300828295;
+			productRefGroup = 8334295428734D5300828295 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8334295228734D5300828295 /* TestAppShedule(No internet) */,
+				8334296828734D5900828295 /* TestAppShedule(No internet)Tests */,
+				8334297228734D5900828295 /* TestAppShedule(No internet)UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8334295128734D5300828295 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8334296328734D5900828295 /* LaunchScreen.storyboard in Resources */,
+				8334296028734D5900828295 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8334296728734D5900828295 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8334297128734D5900828295 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		131798F4C1432FE217D584B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestAppShedule(No internet)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		180B8425C1651228AB4F893E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestAppShedule(No internet)Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A2DC3E3CC5CAA8453367B44 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestAppShedule(No internet)-TestAppShedule(No internet)UITests/Pods-TestAppShedule(No internet)-TestAppShedule(No internet)UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestAppShedule(No internet)-TestAppShedule(No internet)UITests/Pods-TestAppShedule(No internet)-TestAppShedule(No internet)UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestAppShedule(No internet)-TestAppShedule(No internet)UITests/Pods-TestAppShedule(No internet)-TestAppShedule(No internet)UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84AF4008314A3182C17AA40D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestAppShedule(No internet)/Pods-TestAppShedule(No internet)-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestAppShedule(No internet)/Pods-TestAppShedule(No internet)-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestAppShedule(No internet)/Pods-TestAppShedule(No internet)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		962B05F988E6FA17CDB25541 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestAppShedule(No internet)-TestAppShedule(No internet)UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8334294F28734D5300828295 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				833429B328757C2F00828295 /* AlertDate.swift in Sources */,
+				8334295B28734D5300828295 /* MainTabBarController.swift in Sources */,
+				833429952874319A00828295 /* ScheduleTableViewCell.swift in Sources */,
+				8334295728734D5300828295 /* AppDelegate.swift in Sources */,
+				8334299928743BEA00828295 /* UIStackView.swift in Sources */,
+				833429BD28759E1B00828295 /* TeachersTableViewController.swift in Sources */,
+				833429B7287584FA00828295 /* AlertForCellName.swift in Sources */,
+				8334299B28745A3300828295 /* UILabel.swift in Sources */,
+				8334298D2873520800828295 /* TasksViewController.swift in Sources */,
+				8334295928734D5300828295 /* SceneDelegate.swift in Sources */,
+				833429BF2875A17B00828295 /* UIAlertController.swift in Sources */,
+				833429CF2876E69A00828295 /* AlertFriendOrTeacher.swift in Sources */,
+				833429CD2876D63D00828295 /* ContactsOptionsTableViewController.swift in Sources */,
+				833429B52875837900828295 /* AlertTime.swift in Sources */,
+				8334298B287351F200828295 /* ScheduleViewController.swift in Sources */,
+				839AF1242879835200FF508A /* TaskModel.swift in Sources */,
+				8334299D28745DEA00828295 /* UIFont.swift in Sources */,
+				833429C12875B19F00828295 /* ColorsTableViewCell.swift in Sources */,
+				838C55372878454A00FAE7F3 /* RealmManager.swift in Sources */,
+				833429B02874858E00828295 /* HeaderOptionsTableViewCell.swift in Sources */,
+				838C55342878438500FAE7F3 /* ScheduleModel.swift in Sources */,
+				833429C92876C43400828295 /* ContactsViewController.swift in Sources */,
+				83D047C92879B2F3004EDC89 /* ContactModel.swift in Sources */,
+				838C55392878506800FAE7F3 /* UIColor.swift in Sources */,
+				833429A128746E9D00828295 /* TasksTableViewCell.swift in Sources */,
+				838C553128781C1F00FAE7F3 /* AlertPhotoCamera.swift in Sources */,
+				833429AE2874803000828295 /* OptionsTableViewCell.swift in Sources */,
+				833429A42874758000828295 /* PressButtonProtocols.swift in Sources */,
+				838C553B28785AD600FAE7F3 /* AlertOk.swift in Sources */,
+				833429CB2876C5EE00828295 /* ContactsTable ViewCell.swift in Sources */,
+				833429B928759DE000828295 /* ScheduleColorsViewController.swift in Sources */,
+				833429C72875DD7F00828295 /* TaskColorsTableViewController.swift in Sources */,
+				833429C32875B4A100828295 /* TaskOptionsTableView.swift in Sources */,
+				833429A62874780400828295 /* ScheduleOptionsTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8334296528734D5900828295 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8334296E28734D5900828295 /* TestAppShedule_No_internet_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8334296F28734D5900828295 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8334297828734D5900828295 /* TestAppShedule_No_internet_UITests.swift in Sources */,
+				8334297A28734D5900828295 /* TestAppShedule_No_internet_UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8334296B28734D5900828295 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8334295228734D5300828295 /* TestAppShedule(No internet) */;
+			targetProxy = 8334296A28734D5900828295 /* PBXContainerItemProxy */;
+		};
+		8334297528734D5900828295 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8334295228734D5300828295 /* TestAppShedule(No internet) */;
+			targetProxy = 8334297428734D5900828295 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8334296128734D5900828295 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8334296228734D5900828295 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8334297B28734D5900828295 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8334297C28734D5900828295 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8334297E28734D5900828295 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20724E5AD641792C34281B3F /* Pods-TestAppShedule(No internet).debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8CUVDSNA6Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TestAppShedule(No internet)/Resources/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IoCorp.TestAppShedule-No-internet-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8334297F28734D5900828295 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7DF18DC6C653091F0284298 /* Pods-TestAppShedule(No internet).release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8CUVDSNA6Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TestAppShedule(No internet)/Resources/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IoCorp.TestAppShedule-No-internet-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8334298128734D5900828295 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C18E4EFF4737D5230EA5433F /* Pods-TestAppShedule(No internet)Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8CUVDSNA6Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IoCorp.TestAppShedule-No-internet-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestAppShedule(No internet).app/TestAppShedule(No internet)";
+			};
+			name = Debug;
+		};
+		8334298228734D5900828295 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B03279B7BF3DCB22A82C6E6 /* Pods-TestAppShedule(No internet)Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8CUVDSNA6Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IoCorp.TestAppShedule-No-internet-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestAppShedule(No internet).app/TestAppShedule(No internet)";
+			};
+			name = Release;
+		};
+		8334298428734D5900828295 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3281753A0948B87F52D852D9 /* Pods-TestAppShedule(No internet)-TestAppShedule(No internet)UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8CUVDSNA6Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IoCorp.TestAppShedule-No-internet-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TestAppShedule(No internet)";
+			};
+			name = Debug;
+		};
+		8334298528734D5900828295 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F71F7C01EC716E1156D467F /* Pods-TestAppShedule(No internet)-TestAppShedule(No internet)UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8CUVDSNA6Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IoCorp.TestAppShedule-No-internet-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TestAppShedule(No internet)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8334294E28734D5300828295 /* Build configuration list for PBXProject "TestAppShedule(No internet)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8334297B28734D5900828295 /* Debug */,
+				8334297C28734D5900828295 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8334297D28734D5900828295 /* Build configuration list for PBXNativeTarget "TestAppShedule(No internet)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8334297E28734D5900828295 /* Debug */,
+				8334297F28734D5900828295 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8334298028734D5900828295 /* Build configuration list for PBXNativeTarget "TestAppShedule(No internet)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8334298128734D5900828295 /* Debug */,
+				8334298228734D5900828295 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8334298328734D5900828295 /* Build configuration list for PBXNativeTarget "TestAppShedule(No internet)UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8334298428734D5900828295 /* Debug */,
+				8334298528734D5900828295 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8334294B28734D5300828295 /* Project object */;
+}

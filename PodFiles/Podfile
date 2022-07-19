@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'TestAppShedule(No internet)' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+	pod 'FSCalendar'
+	pod 'RealmSwift'
+
+  # Pods for TestAppShedule(No internet)
+
+  target 'TestAppShedule(No internet)Tests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'TestAppShedule(No internet)UITests' do
+    # Pods for testing
+  end
+
+end
